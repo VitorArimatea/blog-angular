@@ -1,0 +1,43 @@
+.big-card-container {
+  margin-top: 1rem;
+  padding: 1rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-link {
+  text-decoration: none;
+  color: #505050;
+}
+
+.post-link:hover .post-text {
+  text-decoration: underline;
+}
+
+.post-image {
+  height: 134px;
+  width: 240px;
+  margin-bottom: 0.5rem;
+}
+
+.post-title {
+  color: #d0d0d0;
+  margin: 0.5rem 0;
+}
+
+.post-date, .post-text {
+  color: #505050;
+  margin: 1rem 0;
+}
+
+@media (min-width: 1008px) {
+  .big-card-container {
+    align-items: start;
+  }
+
+  .post-image {
+    height: 300px;
+    width: 491px;
+  }
+}

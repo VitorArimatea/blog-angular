@@ -1,0 +1,54 @@
+.navbar {
+  padding: 2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-social-media {
+  display: none;
+}
+
+@media (min-width: 1008px) {
+  .navbar {
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-list {
+    display: flex;
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  .menu-item {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #505050;
+    cursor: pointer;
+  }
+
+
+  .menu-social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+  }
+}
