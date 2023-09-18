@@ -1,8 +1,6 @@
-<a class="post-link" href="#">
-  <article class="big-card-container">
-    <img class="post-image" src="{{ cardImage }}" alt="Imagem do post">
-    <span class="post-date">{{ cardDate }}</span>
-    <h2 class="post-title"> {{ cardTitle }}</h2>
-    <p class="post-text">{{ cardText }}</p>
-  </article>
-</a>
+<article class="big-card-container">
+  <img class="post-image" src="{{ cardImage }}" alt="Imagem do post">
+  <span class="post-date">{{ cardDate }}</span>
+  <h2 class="post-title"><a [routerLink]="['content', id]" class="post-link">{{ cardTitle }}</a></h2>
+  <p class="post-text"><a [routerLink]="['content', id]" class="post-link">{{ cardText }}</a></p>
+</article>

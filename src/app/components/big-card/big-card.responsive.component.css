@@ -8,6 +8,10 @@
     height: 273px;
     width: 491px;
   }
+
+	.post-date, .post-text {
+		margin: 0.2rem 0;
+	}
 }
 
 

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css', './home.responsive.component.css']
 })
 export class HomeComponent {
-
+	
 }

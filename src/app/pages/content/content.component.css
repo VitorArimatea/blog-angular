@@ -1,0 +1,27 @@
+.content-container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	max-width: 1000px;
+}
+
+.content-title {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.content-image img {
+	height: 495px;
+	width: 100%;
+	margin-bottom: 0.7rem;
+}
+
+.content-text {
+	color: #f2f2f2;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.content-date {
+	color: #505050;
+}

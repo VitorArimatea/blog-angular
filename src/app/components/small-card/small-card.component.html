@@ -2,7 +2,7 @@
   <article class="small-card-container">
     <div class="left-card">
       <span class="post-date">{{ cardDate }}</span>
-      <h2 class="post-title">{{ cardTitle }}</h2>
+      <h2 class="post-title"><a class="post-link" [routerLink]="['content', id]">{{ cardTitle }}</a></h2>
     </div>
     <div class="right-card">
       <img class="post-image" src="{{ cardImage }}" alt="Imagem do post">

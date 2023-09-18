@@ -11,4 +11,6 @@ body {
   background-color: #121212;
   color: #fff;
   padding: 0 1rem;
+	display: flex;
+	justify-content: center;
 }

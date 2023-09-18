@@ -6,15 +6,6 @@
   align-items: center;
 }
 
-.post-link {
-  text-decoration: none;
-  color: #505050;
-}
-
-.post-link:hover .post-text {
-  text-decoration: underline;
-}
-
 .post-image {
   height: 134px;
   width: 240px;
@@ -29,6 +20,15 @@
 .post-date, .post-text {
   color: #505050;
   margin: 1rem 0;
+}
+
+.post-link {
+  text-decoration: none;
+	color: #d0d0d0;
+}
+
+.post-link:hover {
+  text-decoration: underline;
 }
 
 
