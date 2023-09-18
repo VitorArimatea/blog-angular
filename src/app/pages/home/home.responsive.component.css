@@ -1,0 +1,23 @@
+@media (min-width: 1008px) {
+  .articles {
+    flex-direction: row;
+  }
+
+  .big-card {
+    width: 50%;
+  }
+
+  .small-cards {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1116px) {
+	.articles {
+		padding: 1rem 7rem;
+	}
+}
+
+
+
+

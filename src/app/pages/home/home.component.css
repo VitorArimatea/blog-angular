@@ -3,16 +3,8 @@
   flex-direction: column;
 }
 
-@media (min-width: 1000px) {
-  .articles {
-    flex-direction: row;
-  }
 
-  .big-card {
-    width: 50%;
-  }
 
-  .small-cards {
-    width: 50%;
-  }
-}
+
+
+

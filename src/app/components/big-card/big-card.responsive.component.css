@@ -1,0 +1,13 @@
+@media (min-width: 1008px) {
+  .big-card-container {
+    align-items: start;
+		max-width: 491px;
+  }
+
+  .post-image {
+    height: 273px;
+    width: 491px;
+  }
+}
+
+

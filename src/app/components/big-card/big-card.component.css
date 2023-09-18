@@ -31,13 +31,4 @@
   margin: 1rem 0;
 }
 
-@media (min-width: 1008px) {
-  .big-card-container {
-    align-items: start;
-  }
 
-  .post-image {
-    height: 300px;
-    width: 491px;
-  }
-}
